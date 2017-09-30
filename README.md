@@ -1,2 +1,2 @@
 # imdb_ratings
-Fetch imdb ratings
+Fetch Imdb Ratings

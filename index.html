@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="js/imdb.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <h1>Search Movies</h1>
+    <input type="text" id="movie-title" class="form-control" placeholder="Title">
+    <button id="search-movie" class="btn btn-primary btn-block">Search</button>
+    <h3 id="notification-bar" style='color:red'>An Error occured<h3>
+    <table id="results" class="table table-stripped">
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Rating</th>
+          <th>Votes</th>
+        </tr>
+        <tbody>
+        </tbody>
+      </thead>
+    </table>
+  </body>
+</html>
